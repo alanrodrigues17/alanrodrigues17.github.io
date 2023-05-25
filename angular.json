@@ -97,7 +97,14 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+             "baseHref": "/my-angular-app/",
+             "repo": "https://github.com/alanrodrigues17/app-to-do"
+          }
+       }
       }
     }
   }
